@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow');
 
 body {
-	
+	-webkit-text-fill-color: transparent;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	font-family: 'Barlow', sans-serif;
+	font-family: 'Courier New', Courier, monospace;
 }
 .container {
 	width: 100%;
@@ -23,6 +23,7 @@ h1.main, p.demos {
 	animation-delay: 18s;
 }
 .sp-container {
+	
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -35,6 +36,7 @@ h1.main, p.demos {
 	background: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
 }
 .sp-content {
+	
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -43,15 +45,17 @@ h1.main, p.demos {
 	z-index: 1000;
 }
 .sp-container h2 {
+	
 	position: absolute;
 	top: 50%;
 	line-height: 100px;
 	height: 90px;
 	margin-top: -68px;
-	font-size: 30px;
+	font-size: 50px;
 	width: 100%;
 	text-align: center;
 	color: transparent;
+	
 	-webkit-animation: blur;
 	-webkit-animation: blurFadeInOut 3s ease-in backwards;
 	-moz-animation: blurFadeInOut 3s ease-in backwards;
@@ -89,7 +93,7 @@ h1.main, p.demos {
 	-ms-animation: none;
 	animation: none;
 	color: transparent;
-	text-shadow: 0px 0px 1px rgb(255, 255, 255);
+	text-shadow: 0px 0px 1px #FF99FF;
 }
 .sp-container h2.frame-5 span {
 	-webkit-animation: blurFadeIn 3s ease-in 8s backwards;
@@ -97,7 +101,8 @@ h1.main, p.demos {
 	-ms-animation: blurFadeIn 3s ease-in 8s backwards;
 	animation: blurFadeIn 3s ease-in 8s backwards;
 	color: transparent;
-	text-shadow: 0px 0px 1px rgb(255, 255, 255);
+	text-shadow: 0px 0px 1px #FF99FF;
+	font-size: 40px;
 }
 .sp-container h2.frame-5 span:nth-child(2) {
 	-webkit-animation-delay: 9s;
@@ -166,34 +171,35 @@ h1.main, p.demos {
 @-webkit-keyframes blurFadeInOut {
 	0% {
 		opacity: 0;
-		text-shadow: 0px 0px 40px #fff;
+		
+		text-shadow: 0px 0px 40px #FF99FF;
 		-webkit-transform: scale(1.3);
 	}
 	20%, 75% {
 		opacity: 1;
-		text-shadow: 0px 0px 1px #fff;
+		text-shadow: 0px 0px 1px #FF99FF;
 		-webkit-transform: scale(1);
 	}
 	100% {
 		opacity: 0;
-		text-shadow: 0px 0px 50px #fff;
+		text-shadow: 0px 0px 50px #FF99FF;
 		-webkit-transform: scale(0);
 	}
 }
 @-webkit-keyframes blurFadeIn {
 	0% {
 		opacity: 0;
-		text-shadow: 0px 0px 40px #fff;
+		text-shadow: 0px 0px 40px #FF99FF;
 		-webkit-transform: scale(1.3);
 	}
 	50% {
 		opacity: 0.5;
-		text-shadow: 0px 0px 10px #fff;
+		text-shadow: 0px 0px 10px #FF99FF;
 		-webkit-transform: scale(1.1);
 	}
 	100% {
 		opacity: 1;
-		text-shadow: 0px 0px 1px #fff;
+		text-shadow: 0px 0px 1px #FF99FF;
 		-webkit-transform: scale(1);
 	}
 }
@@ -226,29 +232,29 @@ h1.main, p.demos {
 @-moz-keyframes blurFadeInOut {
 	0% {
 		opacity: 0;
-		text-shadow: 0px 0px 40px #fff;
+		text-shadow: 0px 0px 40px #FF99FF;
 		-moz-transform: scale(1.3);
 	}
 	20%, 75% {
 		opacity: 1;
-		text-shadow: 0px 0px 1px #fff;
+		text-shadow: 0px 0px 1px #FF99FF;
 		-moz-transform: scale(1);
 	}
 	100% {
 		opacity: 0;
-		text-shadow: 0px 0px 50px #fff;
+		text-shadow: 0px 0px 50px #FF99FF;
 		-moz-transform: scale(0);
 	}
 }
 @-moz-keyframes blurFadeIn {
 	0% {
 		opacity: 0;
-		text-shadow: 0px 0px 40px #fff;
+		text-shadow: 0px 0px 40px #FF99FF;
 		-moz-transform: scale(1.3);
 	}
 	100% {
 		opacity: 1;
-		text-shadow: 0px 0px 1px #fff;
+		text-shadow: 0px 0px 1px #FF99FF;
 		-moz-transform: scale(1);
 	}
 }
@@ -281,34 +287,34 @@ h1.main, p.demos {
 @keyframes blurFadeInOut {
 	0% {
 		opacity: 0;
-		text-shadow: 0px 0px 40px #fff;
+		text-shadow: 0px 0px 40px #FF99FF;
 		transform: scale(1.3);
 	}
 	20%, 75% {
 		opacity: 1;
-		text-shadow: 0px 0px 1px #fff;
+		text-shadow: 0px 0px 1px #FF99FF;
 		transform: scale(1);
 	}
 	100% {
 		opacity: 0;
-		text-shadow: 0px 0px 50px #fff;
+		text-shadow: 0px 0px 50px #FF99FF;
 		transform: scale(0);
 	}
 }
 @keyframes blurFadeIn {
 	0% {
 		opacity: 0;
-		text-shadow: 0px 0px 40px #fff;
+		text-shadow: 0px 0px 40px #FF99FF;
 		transform: scale(1.3);
 	}
 	50% {
 		opacity: 0.5;
-		text-shadow: 0px 0px 10px #fff;
+		text-shadow: 0px 0px 10px #FF99FF;
 		transform: scale(1.1);
 	}
 	100% {
 		opacity: 1;
-		text-shadow: 0px 0px 1px #fff;
+		text-shadow: 0px 0px 1px #FF99FF;
 		transform: scale(1);
 	}
 }
